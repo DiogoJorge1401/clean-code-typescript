@@ -1548,7 +1548,7 @@ const query = new QueryBuilder()
 
 ## SOLID
 
-### Principio da única responsabilidade (Single Responsabiliy Principle)
+### Princípio da responsabilidade única (Single Responsabiliy Principle)
 
 Como dito em Código Limpo, "Não deve haver mais de um motivo para alterar uma classe". É tentador lotar uma classe com várias funcionalidades, como se você só pudesse carregar uma mala em uma viagem. O problema disso é que sua classe não será conceitualmente coesiva e posteriormente te trará vários motivos para mudar. Reduzir a quantidade de vezes que você precisa mudar uma classe é importante. É importante pois se muitas funcionalidades estão contidas em uma classe e você altera um pedaço disso, pode ser difícil entender como isso irá afetar os módulos dependentes da sua classe/do seu código.
 
@@ -1598,7 +1598,7 @@ class UserSettings {
 
 **[⬆ ir para o topo](#table-of-contents)**
 
-### Prinpio do Aberto/Fechado (Open/Closed Principle)
+### Princípio do Aberto/Fechado (Open/Closed Principle)
 
 Como dito por Bertrand Meyer, "entidades em software (classes, módulos, funções, etc.) devem ser abertas para extenções, mas fechadas para modificações." Mas o que isso significa? Este princípio diz, basicamente, que você deve permitir que seus usuários adicionem novas funcionalidades sem alterar código já existente.
 
@@ -1687,7 +1687,7 @@ class HttpRequester {
 
 **[⬆ ir para o topo](#table-of-contents)**
 
-### Principios da Substituição de Liskov (Liskov Substitution Principle)
+### Principio da Substituição de Liskov (Liskov Substitution Principle)
 
 Este é um termo muito assustador para um conceito bem simples. É formalmente definido como "Se S é um subtipo de T, então os objetos do tipo T podem ser substituidos com objetos do tipo S(ou seja, objetos do tipo S podem substituir objetos do tipo T) sem alterar nenhuma propriedade desejáveis daquele programa (correção, tarefa executada, etc.)." E essa é uma definição ainda mais assustadora.
 
@@ -1793,7 +1793,7 @@ renderLargeShapes(shapes);
 
 **[⬆ ir para o topo](#table-of-contents)**
 
-### Principio da Segragação de Interface (PSI)
+### Princípio da Segregação de Interface (PSI)
 
 PSI afima que "Clientes não deveriam ser forçados a serem dependentes de interfaces que eles não usam". Esse princípio é muito relacionado ao Princípio da única responsabilidade.
 O que isso realmente significa é que você deve sempre projetar suas abstrações de uma maneira que os clientes que estão usando os métodos expostos não obtenham a "a torta inteira". Isto também inclui aos clientes o dever implementar metódos que eles, na realidade, não precisam.
